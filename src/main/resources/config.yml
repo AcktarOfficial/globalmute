@@ -1,0 +1,32 @@
+# ====================================
+# GlobalMute 1.0-SNAPSHOT 
+# A plugin by AcktarDevs
+# ====================================
+                                                                                     
+# This will clear the chat when the global mute has been enabled. Set to false to disable
+clear-chat: true
+
+# This message will appear to the player who is trying to chat while global mute is toggled on.
+chat-error: "§l§7(§eGlobalMute§7)§r§c You cannot chat while global mute is toggled on."
+
+# make sense? 
+already-muted: "§l§7(§eGlobalMute§7)§r§c The chat is already muted" 
+already-unmuted: "§l§7(§eGlobalMute§7)§r§c The chat is already unmuted" 
+
+# Message sent when global chat is muted
+muted-chat:
+- "§a§m---------------------------------------------------"
+- "§a# §7GlobalChat by: §2AcktarDevs"
+- "§a# §7The chat has been: §cmuted"
+- "§a§m---------------------------------------------------"
+
+# Message sent when global chat is unmuted
+unmuted-chat:
+- "§a§m---------------------------------------------------"
+- "§a# §7GlobalChat by: §2AcktarDevs"
+- "§a# §7The chat has been: §bunmuted"
+- "§a§m---------------------------------------------------"
+
+# It's highly suggested to not change the below "global-mute" unless you know what you are doing.
+# DONT CHANGE IT
+global-mute: false
